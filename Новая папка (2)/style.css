@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Ribeye;
+}
+.header{
+    background-image: url('../img/bit');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:619px;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar .navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: white;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+header .header_nav .navbar .nav-link:hover {
+    color: #FA4A0C;
+    
+}
+header .header_nav  .navbar  .active{
+    color: #FA4A0C !important;
+    
+}
+.header span{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    
+}
+.header h1{
+    
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+    
+}
+.header p{
+    
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    
+}
+.header button{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 10px 40px;
+
+}
+.header .click{
+    margin-top: 30px;
+}
+
+span{
+    margin-left: 10px;
+}
+footer .fa .fa-apple{
+    background: white;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 992px) {
+    .menu p{
+        margin-left: 100px;
+    }
+    
+}

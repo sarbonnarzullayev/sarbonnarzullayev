@@ -1,16 +1,219 @@
-### Hi there 👋
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Scooter</title>
+  </head>
+  <body>
 
-<!--
-**sarbonnarzullayev/sarbonnarzullayev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <header>
+      <div class="header_nav">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="#" style="font-weight: 700; font-size: 30px; color: #495567;"> Scoot </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link ml-5" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ml-5" href="#">Location</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ml-5" href="#">Careers</a>
+                  </li>
+                </ul>
 
-Here are some ideas to get you started:
+                <div class="button flex-column align-items-end" style="margin-left: 400px;">
+                  <button style="background: #FCB72B; color: white;
+                  font-weight: 500;
+                  font-size: 24px;
+                  padding: 10px 40px;
+                  border: none;
+                  ">Get Scootin</button>
+                </div>
+             
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+      <div class="header">
+        <div class="container">
+          <div class="row flex-column">
+              <h1 style="margin-top: 100px;">Scooter sharing <br> made simple</h1>
+              <p style="font-weight: 400; font-size: 15px; margin-left: 40px;">Scoot takes the hassle out of urban mobility. Our bikes <br> are placed in convenient locations in each of our cities. <br> Use our app to locate the nearest bike, unlock it with a <br> tap, and you’re away!</p>
+
+              <div class="click mt-3">
+                <button style="background: #FCB72B; color: white;
+                font-weight: 500;
+                font-size: 24px;
+                padding: 10px 40px;
+                border: none;
+                margin-left: 40px;">Get Scootin</button>
+               
+              </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <!-- <div class="menu"> -->
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/Oval.png" alt="">
+              <h3 style="font-weight: 700; font-size: 24px; color: #495567;">Locate with app</h3>
+              <p style="font-weight: 400; font-size: 15px; color: #939CAA;">Use the app to find the nearest scooter to you.  We are continuously placing scooters in the  areas with most demand, so one should never  be too far away. </p>
+            </div>
+            <div class="col-lg-4  col-md-6 col-12">
+              <img src="./img/Oval.png" alt="">
+              <h3 style="font-weight: 700; font-size: 24px; color: #495567;">Pick your scooter</h3>
+              <p style="font-weight: 400; font-size: 15px; color: #939CAA;">We show the most important info for the <br> scooters closest to you. So you know how much <br> charge they have left and can see roughly how <br> much it will cost.</p>
+            </div>
+            <div class="col-lg-4  col-md-6 col-12">
+              <img src="./img/Oval.png" alt="">
+              <h3 style="font-weight: 700; font-size: 24px; color: #495567;">Enjoy the ride</h3>
+              <p style="font-weight: 400; font-size: 15px; color: #939CAA;">Scan the QR code and the bike will unlock. <br> Retract the cable lock, put on a helmet, and <br> you’re off! Always lock bikes away from <br> walkways and accessibility ramps.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <main>
+      <div class="container">
+        <h3 style="font-weight: 700; font-size: 48px; color:  #495567; margin-bottom: 25px;">Easy to use <br>
+          riding telemetry</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <p style="color: #939CAA;; font-weight: 400; margin-bottom: 35px;">The Scoot app is available with riding telemetry. This means <br> 
+              it can show you your average speed, how long you've been <br> 
+              using the scooter, your traveling distance, and many more <br>
+               things all in an easy to use app.</p>
+              <button style="background: #FCB72B; color: white;
+              font-weight: 500;
+              font-size: 24px;
+              padding: 10px 40px;
+              border: none;">Learn More</button>
+          </div>
+          <div class="col-md-6" style="transform: translateY(-150px);">
+            <img src="./img/Bitmap (3).png" style="border-radius: 250px;" alt="">
+          </div>
+         
+        </div>
+       
+      </div>
+      
+    </main>
+
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/Bitmap (3).png" style="border-radius: 240px; transform: translateY(-40px);" alt="">
+          </div>
+          <div class="col-md-6">
+            <p style="font-weight: 700; font-size: 48px; color: #495567;">Coming to a city <br> near you</p>
+            <p style="font-weight: 400; font-size: 15px; color: #939CAA;">Scoot is available in 4 major cities so far. We’re expanding <br> rapidly, so be sure to let us know if you want to see us in <br> your hometown. We’re aiming to let our scooters loose on 23 <br> cities over the coming year.</p>
+            <button style="background: #FCB72B; color: white;
+            font-weight: 500;
+            font-size: 24px;
+            padding: 10px 40px;
+            border: none;">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="padding-bottom: 120px;">
+            <p style="font-weight: 700; color: #495567; font-size: 48px; transform: translateY(40px);">Zero hassle payments</p>
+            <p style="font-weight: 400; font-size: 15px; color: #939CAA; margin-bottom: 35px; transform: translateY(40px);">Our payment is as easy as one two three. We accept most <br> credit cards and debit cards. You can also link your PayPal <br> account inside the app. Need to pay later? No worries! You <br> can defer payment for up to a month.</p>
+            <button style="background: #FCB72B; color: white;
+            font-weight: 500;
+            font-size: 24px;
+            padding: 10px 40px;
+            border: none;
+            transform: translateY(40px);">Learn More</button>
+          </div>
+          <div class="col-md-6" style="padding-bottom: 120px;">
+            <img src="./img/Bitmap (4).png" style="border-radius: 250px; " alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer style="background: #495567;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p style="font-weight: 700; font-size: 48px; color: #FFFFFF; padding: 85px 0 ; line-height: 48px; font-size: 48px; font-weight: 700;">Sign up and <br> Scoot off today</p>
+          </div>
+         <div class="col-md-6" style="display: flex; align-items: center;">
+            <div class="col-md-6">
+              <i class="fa fa-apple">Available on the <br> <span>AppStore</span> </i>
+            </div>
+            <div class="col-md-6">
+              <i class="fa fa-google-plus">GooglePlay</i>
+            </div>
+           
+         </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <footer style="background: #333A44;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="box d-flex justify-content-around">
+              <p style="font-size: 24px; font-weight: 700; padding-top: 5px; color: white;">Scoot</p> 
+              <p style="color: #939CAA; padding-top: 7px;">About</p> 
+              <p style="color: #939CAA; padding-top: 7px;">Location</p>
+              <p style="color: #939CAA; padding-top: 7px;">Careers</p>
+            </div>
+           
+          </div>
+          <div class="col-md-6 d-flex justify-content-end align-items-center">
+            <i class="fa fa-facebook p-2" style="color: #FCB72B;"></i>
+            <i class="fa fa-twitter p-2" style="color: #FCB72B;"></i>
+            <i class="fa fa-instagram p-2" style="color: #FCB72B;"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+      
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/poper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
